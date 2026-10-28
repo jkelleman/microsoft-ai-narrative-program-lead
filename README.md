@@ -15,8 +15,6 @@ Moving from fragmented data to a governed foundation for analytics and AI, with 
 
 This repository brings together the working materials for an enterprise data modernization program using Microsoft Fabric. It covers both sides of the work: building a reliable data foundation and helping technical teams, business partners, and executives stay aligned on why it matters.
 
-The materials are reference designs and templates, not evidence of a completed deployment. Examples, measures, and timelines should be adapted to the organization and validated against its actual environment.
-
 ## The program narrative
 
 1. **Understand the current state.** Data is often spread across systems, with uneven quality, ownership, and access controls. Establishing a baseline helps teams decide where to focus first.
@@ -51,11 +49,3 @@ Platform work is only part of modernization. The program materials also support:
 - **Executive alignment:** connect investment decisions to business priorities, risks, and evidence.
 - **Cross-functional collaboration:** give product, engineering, security, and business teams a shared vocabulary for decisions.
 - **Team development:** use the notebooks and architecture examples as starting points for hands-on learning, with changes reviewed against local standards.
-
-## Business value
-
-A well-scoped modernization effort can make data ownership and quality gaps easier to see, reduce duplicated work where systems can be consolidated, and give teams a more consistent starting point for analytics and AI projects. The program should measure these outcomes against a documented baseline rather than assume they will occur automatically.
-
-## Using the materials
-
-Start with the program charter, then review the Fabric design and medallion approach. The notebooks are examples that require an attached Lakehouse and environment-specific configuration. The executive materials are templates: replace prompts with verified evidence and make each briefing's decision or request explicit.
