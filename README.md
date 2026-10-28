@@ -1,6 +1,15 @@
-# Enterprise AI Data Modernization and Readiness
+<p align="center">
+  <img src="assets/portfolio-banner.svg" alt="Enterprise AI Data Modernization and Readiness: trusted data foundations, clear decisions, and responsible AI adoption" width="100%">
+</p>
 
 Moving from fragmented data to a governed foundation for analytics and AI, with a clear plan for the people and decisions needed to get there.
+
+<p>
+  <img src="https://img.shields.io/badge/Microsoft_Fabric-data_platform-0078D4?style=flat-square" alt="Microsoft Fabric data platform">
+  <img src="https://img.shields.io/badge/PySpark-data_engineering-E25A1C?style=flat-square" alt="PySpark data engineering">
+  <img src="https://img.shields.io/badge/Delta_Lake-lakehouse_storage-00A1C9?style=flat-square" alt="Delta Lake lakehouse storage">
+  <img src="https://img.shields.io/badge/Focus-governance_and_adoption-168C83?style=flat-square" alt="Focus: governance and adoption">
+</p>
 
 ## Program overview
 
