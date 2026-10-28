@@ -1,6 +1,5 @@
 # Microsoft Fabric Lakehouse Design: Enterprise AI Foundation
 
-**Author:** Jennifer Kelleman
 **Platform:** Microsoft Fabric (OneLake + Lakehouse)
 
 ---
@@ -183,5 +182,4 @@ This integration is the governance story for executive audiences: "Every piece o
 
 ---
 
-*This architecture document is part of Jennifer Kelleman's program portfolio. It reflects real design decisions from enterprise Microsoft Fabric deployments.*
-*[AIwithjen.com](https://aiwithjen.com)*
+Review the design against the organization's security, governance, workload, and cost requirements before implementation.
