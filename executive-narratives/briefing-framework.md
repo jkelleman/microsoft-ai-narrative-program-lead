@@ -1,6 +1,5 @@
 # Executive Briefing Framework: Enterprise AI Programs
 
-**Author:** Jennifer Kelleman
 **Purpose:** Repeatable framework for designing and delivering C-suite AI briefings
 
 ---
@@ -152,5 +151,4 @@ Before every executive briefing, confirm:
 
 ---
 
-*This framework is part of Jennifer Kelleman's program portfolio. It reflects real executive communication principles applied across enterprise AI and data modernization programs.*
-*[AIwithjen.com](https://aiwithjen.com)*
+Use this framework as a starting point and adapt it to the audience, decision, and evidence available.

@@ -1,6 +1,5 @@
 # The Master Narrative: From Data to AI Value
 
-**Author:** Jennifer Kelleman
 **Purpose:** The through-line narrative for enterprise AI adoption — from data estate investment to AI business outcomes.
 
 ---
@@ -161,5 +160,3 @@ A program with a clear narrative and strong technical execution transforms organ
 This portfolio is evidence of both.
 
 ---
-
-*Jennifer Kelleman | [AIwithjen.com](https://aiwithjen.com) | [LinkedIn](https://www.linkedin.com/in/jenniferkelleman)*

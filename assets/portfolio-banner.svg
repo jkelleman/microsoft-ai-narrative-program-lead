@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Enterprise AI Data Modernization and Readiness</title>
+  <desc id="description">A dark blue abstract data network with the themes trusted data, clear decisions, and responsible AI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#123b67"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#46d5c5"/>
+      <stop offset="1" stop-color="#7aa7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <path d="M715 0h485v320H855c84-58 116-132 40-187C828 78 760 73 715 0Z" fill="#ffffff" opacity=".035"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".75">
+    <path d="M790 86 900 126 1008 74 1114 116"/>
+    <path d="M790 86 838 204 962 226 1060 171 1114 116"/>
+    <path d="M900 126 962 226"/>
+    <path d="M1008 74 1060 171"/>
+    <path d="M838 204 790 262 930 278 1060 171 1143 224"/>
+    <path d="M962 226 930 278"/>
+  </g>
+  <g fill="#b9fff4">
+    <circle cx="790" cy="86" r="6"/>
+    <circle cx="900" cy="126" r="5"/>
+    <circle cx="1008" cy="74" r="7"/>
+    <circle cx="1114" cy="116" r="5"/>
+    <circle cx="838" cy="204" r="7"/>
+    <circle cx="962" cy="226" r="6"/>
+    <circle cx="1060" cy="171" r="7"/>
+    <circle cx="790" cy="262" r="5"/>
+    <circle cx="930" cy="278" r="6"/>
+    <circle cx="1143" cy="224" r="5"/>
+  </g>
+  <rect x="64" y="58" width="54" height="4" rx="2" fill="url(#accent)"/>
+  <text x="64" y="122" fill="#f4f8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing=".2">
+    Enterprise AI Data
+  </text>
+  <text x="64" y="168" fill="#f4f8ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="35" font-weight="700" letter-spacing=".2">
+    Modernization and Readiness
+  </text>
+  <text x="66" y="213" fill="#c6d5e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">
+    Trusted data foundations. Clear decisions. Responsible AI adoption.
+  </text>
+  <text x="66" y="270" fill="#8fe8dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.2">
+    STRATEGY
+  </text>
+  <circle cx="132" cy="266" r="2" fill="#8fe8dc"/>
+  <text x="148" y="270" fill="#8fe8dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.2">
+    GOVERNANCE
+  </text>
+  <circle cx="260" cy="266" r="2" fill="#8fe8dc"/>
+  <text x="276" y="270" fill="#8fe8dc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.2">
+    ENABLEMENT
+  </text>
+</svg>

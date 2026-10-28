@@ -1,6 +1,5 @@
 # Program Results: What This Work Produces
 
-**Author:** Jennifer Kelleman
 **Purpose:** Articulate the outcomes of an Enterprise AI Data Modernization program on Microsoft Fabric — for both technical and executive audiences.
 
 ---
@@ -99,6 +98,3 @@ Every outcome in this repository is connected to a measurement:
 Programs that don't measure their own progress don't just fail to communicate value — they fail to recognize when they're drifting off course. Measurement is not a reporting exercise. It's a program management discipline.
 
 ---
-
-*This document is part of Jennifer Kelleman's program portfolio.*
-*[AIwithjen.com](https://aiwithjen.com) | [LinkedIn](https://www.linkedin.com/in/jenniferkelleman)*

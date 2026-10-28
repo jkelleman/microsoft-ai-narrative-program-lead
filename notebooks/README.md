@@ -1,6 +1,6 @@
 # Fabric Notebooks: AI Readiness on Microsoft Fabric
 
-This folder contains two production-pattern notebooks used in the Enterprise AI Data Modernization program. Both notebooks are designed to run natively on **Microsoft Fabric** using the built-in Spark runtime (Runtime 1.3+).
+This folder contains two example notebooks for an enterprise data modernization program. They are intended for Microsoft Fabric's Spark runtime; review the configuration and dependencies before running them in a workspace.
 
 ## Notebooks in This Folder
 
@@ -27,6 +27,6 @@ These notebooks serve a dual purpose:
 
 **Technical:** They are the quality gate between the Bronze and Silver layers, and the evidence layer for the AI readiness executive briefings.
 
-**Narrative:** When I present to a CIO or CDO, I don't show them cells and DataFrames. I show them the *output* — a dashboard built on the Delta tables these notebooks produce. The quality scores become the story: "Here's where your data estate stands today, here's where it needs to be for AI, and here's the specific gaps we're closing."
+**Communication:** Executive updates can use the results to explain the current baseline, identify gaps, and agree on next steps. Include the assessment date, definitions, and limitations alongside the scores.
 
 The notebook is the engine. The output is the narrative.

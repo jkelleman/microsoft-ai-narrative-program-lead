@@ -1,93 +1,61 @@
-# Enterprise AI Data Modernization — Program Narrative Portfolio
+<p align="center">
+  <img src="assets/portfolio-banner.svg" alt="Enterprise AI Data Modernization and Readiness: trusted data foundations, clear decisions, and responsible AI adoption" width="100%">
+</p>
 
-> **Jennifer Kelleman** | AI & Data Strategy | Microsoft Fabric | Executive Program Leadership
-> [AIwithjen.com](https://aiwithjen.com) · [LinkedIn](https://www.linkedin.com/in/jenniferkelleman)
+Moving from fragmented data to a governed foundation for analytics and AI, with a clear plan for the people and decisions needed to get there.
 
----
+<p>
+  <img src="https://img.shields.io/badge/Microsoft_Fabric-data_platform-0078D4?style=flat-square" alt="Microsoft Fabric data platform">
+  <img src="https://img.shields.io/badge/PySpark-data_engineering-E25A1C?style=flat-square" alt="PySpark data engineering">
+  <img src="https://img.shields.io/badge/Delta_Lake-lakehouse_storage-00A1C9?style=flat-square" alt="Delta Lake lakehouse storage">
+  <img src="https://img.shields.io/badge/Focus-governance_and_adoption-168C83?style=flat-square" alt="Focus: governance and adoption">
+</p>
 
-## What This Repository Is
+## Program overview
 
-This repository is a working portfolio of a **full-lifecycle enterprise AI data modernization program** I led using **Microsoft Fabric**. It demonstrates both technical depth and the narrative craft required to move executive audiences from interest to action.
+This repository brings together the working materials for an enterprise data modernization program using Microsoft Fabric. It covers both sides of the work: building a reliable data foundation and helping technical teams, business partners, and executives stay aligned on why it matters.
 
-The program centered on a single strategic question:
+The materials are reference designs and templates, not evidence of a completed deployment. Examples, measures, and timelines should be adapted to the organization and validated against its actual environment.
 
-> *How do you take an organization sitting on years of siloed, underutilized data and turn it into a platform that makes AI real — measurable, governed, and trusted?*
+## The program narrative
 
-Everything here — the architecture decisions, the notebooks, the briefing frameworks — was built to answer that question at scale.
+1. **Understand the current state.** Data is often spread across systems, with uneven quality, ownership, and access controls. Establishing a baseline helps teams decide where to focus first.
+2. **Build a shared foundation.** Microsoft Fabric and OneLake can provide a common platform for data engineering and analytics. The design still depends on deliberate choices about access, governance, and workload needs.
+3. **Improve data in stages.** A medallion approach organizes work into Bronze, Silver, and Gold layers, with checks and ownership defined at each stage.
+4. **Connect readiness to business use.** A scorecard can make data gaps visible and help teams decide what to address before a specific analytics or AI use case proceeds. A score alone does not establish that a dataset is safe or appropriate for production use.
 
----
+## Repository map
 
-## Program at a Glance
-
-| Dimension | Detail |
-|---|---|
-| **Platform** | Microsoft Fabric (OneLake, Lakehouse, Data Factory, Spark, Semantic Models, Power BI) |
-| **Program Scope** | Enterprise data modernization → AI-readiness foundation |
-| **Audience** | CIO, CDO, VP of Data, Business Unit leaders |
-| **Outcomes** | Unified data estate, medallion lakehouse, AI readiness scorecard, executive briefing program |
-| **Core Narrative** | From data sprawl to governed intelligence — enabling the first wave of enterprise AI |
-
----
-
-## Repository Structure
-
-```
-narrative-program-lead/
-│
-├── program-charter/
-│   └── ai-data-modernization-charter.md   # Why this program exists and what success looks like
-│
-├── architecture/
-│   ├── fabric-lakehouse-design.md          # OneLake + Lakehouse design decisions
-│   └── medallion-architecture.md          # Bronze → Silver → Gold pipeline narrative
-│
-├── notebooks/
-│   ├── README.md                           # How the notebooks fit the program story
-│   ├── 01_data_quality_assessment.ipynb    # Fabric-native PySpark data quality scan
-│   └── 02_ai_readiness_scorecard.ipynb    # Scoring an enterprise's AI readiness on Fabric
-│
-├── executive-narratives/
-│   ├── briefing-framework.md              # Repeatable framework for C-suite AI briefings
-│   ├── cio-briefing-template.md           # Customizable CIO briefing arc
-│   └── ai-adoption-narrative.md          # The master narrative: from data to AI value
-│
-└── outcomes/
-    └── program-results.md                 # What this kind of program produces
+```text
+program-charter/
+└── ai-data-modernization-charter.md    Program goals, scope, roles, and measures
+architecture/
+├── fabric-lakehouse-design.md          Fabric and OneLake design considerations
+└── medallion-architecture.md           Bronze, Silver, and Gold design
+notebooks/
+├── README.md                           Notebook setup and expected outputs
+├── 01_data_quality_assessment.ipynb    Data quality checks for Lakehouse tables
+└── 02_ai_readiness_scorecard.ipynb     Example readiness assessment
+executive-narratives/
+├── briefing-framework.md               Repeatable briefing structure
+├── cio-briefing-template.md            CIO briefing agenda and prompts
+└── ai-adoption-narrative.md             Communication approach for adoption
+outcomes/
+└── program-results.md                  Outcome measures and reporting prompts
 ```
 
----
+## Organizational adoption
 
-## The Core Narrative Thread
+Platform work is only part of modernization. The program materials also support:
 
-Every artifact in this repository is connected by a single through-line:
+- **Executive alignment:** connect investment decisions to business priorities, risks, and evidence.
+- **Cross-functional collaboration:** give product, engineering, security, and business teams a shared vocabulary for decisions.
+- **Team development:** use the notebooks and architecture examples as starting points for hands-on learning, with changes reviewed against local standards.
 
-**Act 1 — The Problem:** Enterprise data is fragmented, inconsistently governed, and not AI-ready. Business leaders want AI outcomes but their data estate can't support them.
+## Business value
 
-**Act 2 — The Platform:** Microsoft Fabric's unified OneLake architecture collapses the traditional data stack into one governed, compute-flexible estate. This is the infrastructure investment that makes AI payoff possible.
+A well-scoped modernization effort can make data ownership and quality gaps easier to see, reduce duplicated work where systems can be consolidated, and give teams a more consistent starting point for analytics and AI projects. The program should measure these outcomes against a documented baseline rather than assume they will occur automatically.
 
-**Act 3 — The Program:** A structured program — not just a technology deployment — that moves the organization through data quality, medallion architecture, semantic modeling, and finally, AI-readiness scoring. Each phase produces executive-visible outcomes.
+## Using the materials
 
-**Act 4 — The Handoff:** A governed, AI-ready data estate is the launch pad for enterprise AI adoption — whether that's Microsoft Copilot, custom LLM integrations, or a broader GenAI program. The data foundation makes the AI investment defensible.
-
----
-
-## Why This Work Matters for Executive AI Programs
-
-The most common failure mode in enterprise AI isn't the model — it's the data and the narrative.
-
-Organizations invest in AI pilots that stall because:
-1. The underlying data is not trustworthy enough to act on
-2. Executive sponsors don't have a clear story about what success looks like
-3. There's no program structure to move from pilot to production
-
-This portfolio demonstrates both how to *build* the data foundation (the technical work) and how to *tell the story* of that work in a way that moves C-suite audiences toward committed action.
-
-That combination — technical credibility + narrative clarity — is the unlock for sustainable enterprise AI adoption.
-
----
-
-## Connect
-
-If you're building executive AI programs, designing enterprise data strategies, or looking for someone who can translate complex platform decisions into business narratives that land — let's talk.
-
-🌐 [AIwithjen.com](https://aiwithjen.com) | 💼 [LinkedIn: jenniferkelleman](https://www.linkedin.com/in/jenniferkelleman)
+Start with the program charter, then review the Fabric design and medallion approach. The notebooks are examples that require an attached Lakehouse and environment-specific configuration. The executive materials are templates: replace prompts with verified evidence and make each briefing's decision or request explicit.
